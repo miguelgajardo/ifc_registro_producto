@@ -1,0 +1,24 @@
+Proyecto de interfaz de registro de producto.
+
+Para la instalación:
+
+1 - Clonar el repositorio público: git@github.com:miguelgajardo/ifc_registro_producto.git
+2 - Configurar la base de datos con el documento de definición DDL_REGISTRO-PRODUCTO.sql
+3 - Insertar los datos de pruebas para monedas, bodegas y sucursales del documento DML_REGISTRO-PRODUCTO.sql
+4 - Configurar la conexión de base de datos en el includes/database.php con las credenciales:
+    'mysql:host=localhost;dbname=ifc_registro_productos;charset=utf8','root',''
+5 - Para el desarrollo de esta interfaz, se ha utilizado el servicio XAMPP. Asegúrese de incluir la carpeta del proyecto dentro del servidor según corresponda.
+    Ej: C:\xampp\htdocs\registro_productos
+Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.0.28 mod_perl/2.0.12 Perl/v5.34.1
+Versión del cliente de base de datos: libmysql - mysqlnd 8.0.28
+extensión PHP: mysqli Documentación curl Documentación mbstring Documentación
+Versión de PHP: 8.0.28
+
+Servidor: Localhost via UNIX socket
+Tipo de servidor: MariaDB
+Conexión del servidor: No se está utilizando SSL Documentación
+Versión del servidor: 10.4.28-MariaDB - Source distribution
+Versión del protocolo: 10
+Usuario: root@localhost
+Conjunto de caracteres del servidor: UTF-8 Unicode (utf8mb4)
+
